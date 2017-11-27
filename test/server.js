@@ -665,14 +665,14 @@ useSslVariants.forEach((useSsl) => {
                     else desc += 'with username only ';
                 }
                 desc += '-> Target)';
-
+/*
                 describe(desc, createTestSuite({
                     useMainProxy: true,
                     useSsl,
                     useUpstreamProxy,
                     mainProxyAuth,
                     upstreamProxyAuth,
-                }));
+                })); */
             });
         });
     });
